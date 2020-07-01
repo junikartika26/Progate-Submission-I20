@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -12,15 +15,14 @@ a {
 header {
     height: 65px;
     width: 100%;
-    background-color: rgba(38, 35, 197, 0.9);
-    /* background: linear-gradient(120deg, #3498db, #8e44ad, #3498db); */
+    background-color: white;    /* background: linear-gradient(120deg, #3498db, #8e44ad, #3498db); */
     position: fixed;
     top: 0;
     z-index: 10;
 }
 .header-left {
     float: left;
-    color: white;
+    color: black;
 }
 .header-tengah {
     float: right;
@@ -29,12 +31,74 @@ header {
 .header-tengah a {
     line-height: 65px;
     padding: 0 25px;
-    color: white;
+    color: black;
     display: block;
     float: left;
     transition: all 0.5s;
 }
 .header-tengah a:hover {
-    background-color: rgba(24, 127, 158, 0.541);
+    background-color: rgba(154, 35, 190, 0.39);
     /* background: linear-gradient(120deg, #3498db, #8e44ad, #0b79c3); */
+}
+.top-wrapper h1 {
+    opacity: 0.8;
+    margin-top: 130px;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-top: 200px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+#your-job {
+    color: blue;
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+.lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+}
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+/* Responsive untuk Tablet */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+}
+@media all and (max-width: 670px) {
+    .top-wrapper h1 {
+        font-size: 24px;
+        text-align: left;
+        line-height: 36px;
+    }
 }
