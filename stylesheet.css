@@ -64,7 +64,8 @@ header {
 .heading {
     padding-top: 80px;
     padding-bottom: 50px;
-    color: #5f5d60;
+    color: black;
+    opacity: 0.8;
 }
 
 .lesson {
@@ -86,7 +87,8 @@ header {
     display: inline-block;
     margin-top: 15px;
     font-size: 15px;
-    color: #b3aeb5;
+    color: black;
+    opacity: 0.8;
 }
 
 /* Responsive untuk Tablet */
