@@ -10,16 +10,16 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="header-left">
-                <h2>My Jobs | I20</h2>
+        <div class="header" id="menu-area">
+            <div class="logo">
+                <h3>Progate</h3>
             </div>
-            <div class="header-tengah">
-                <a href="#">Home</a>
-                <a href="#">Post Jobs</a>
-                <a href="#">Forum</a>
-                <a href="#" class="login">Sign In</a>
-            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Post Jobs</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><button type="button" class="btn-navbar">Sign in</button></li>
+            </ul>
         </div>
     </header>
 
@@ -77,5 +77,13 @@
             </div>
         </div>
     </div>
+
+    <script>
+        window.addEventListener('scroll', function(){
+  var section = document.querySelector('.header');
+  section.classList.toggle('cus-nav', window.scrollY > 0);
+});
+     
+    </script>
 </body>
 </html>

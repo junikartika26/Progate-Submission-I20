@@ -13,34 +13,68 @@ a {
     padding: 0 15px;
     margin: 0 auto;
 }
-header {
-    height: 65px;
+/* header */
+#menu-area {
+    display: flex;
+   justify-content: space-between;
+    padding: 0 60px;
+    position: fixed;
     width: 100%;
-    background-color: white;    /* background: linear-gradient(120deg, #3498db, #8e44ad, #3498db); */
+    top: 0;
+   
+}
+
+#menu-area .logo {
+    height: 70px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#menu-area ul {
+    width: 500px;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#menu-area ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.cus-nav {
+    background: #ffffff;
+    transition: all 1.5s ease;
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 999;
 }
-.header-left {
-    float: left;
-    color: black;
+
+.btn-navbar {
+    background: none;
+    width: 70px;
+    height: 35px;
+    border: 1px solid #747fe0;
+    border-radius: 10px;
+    transition: .6s;
+    overflow: hidden;
 }
-.header-tengah {
-    float: right;
-    margin-right: 25px;
+
+
+
+button:hover {
+    background: #747fe0;
+    cursor: pointer;
 }
-.header-tengah a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: black;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-}
-.header-tengah a:hover {
-    background-color: rgba(154, 35, 190, 0.39);
-    /* background: linear-gradient(120deg, #3498db, #8e44ad, #0b79c3); */
-}
+
+/* akhir header */
 .top-wrapper h1 {
     opacity: 0.8;
     margin-top: 130px;
