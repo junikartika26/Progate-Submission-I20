@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(38, 35, 197, 0.9);
+    /* background: linear-gradient(120deg, #3498db, #8e44ad, #3498db); */
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left {
+    float: left;
+    color: white;
+}
+.header-tengah {
+    float: right;
+    margin-right: 25px;
+}
+.header-tengah a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+.header-tengah a:hover {
+    background-color: rgba(24, 127, 158, 0.541);
+    /* background: linear-gradient(120deg, #3498db, #8e44ad, #0b79c3); */
+}
