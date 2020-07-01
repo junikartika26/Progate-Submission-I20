@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -55,32 +56,44 @@ header {
 
 .lesson-wrapper {
     margin-top: 90px;
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #ccbebed5;
+    padding-bottom: 500px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(230, 225, 225);
     text-align: center;
 }
 
 .heading {
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 50px;
     color: black;
     opacity: 0.8;
+    font-size: 12px;
 }
 
-.lesson {
+.box {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 10px;
+    margin: 4px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
     float: left;
-    width: 25%;
+    width: 24%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.lesson-icon {
+.box-icon {
     position: relative;
 }
-.lesson-icon p {
+.box-icon p {
     position: absolute;
     top: 44%;
-    width: 100%;
+    width: 50%;
     color: white;
 }
 .txt-contents {
@@ -90,6 +103,24 @@ header {
     font-size: 15px;
     color: black;
     opacity: 0.8;
+}
+.box .apply {
+    cursor: pointer;
+    background-color: #00AA13;
+    padding: 5px 20px;
+    box-shadow: 0 2px #03421d;
+    color: white;
+    float: right;
+    border-radius: 10px;
+    margin-bottom: 9px;
+}
+#see-more {
+    float: right;
+    margin-top: 20px;
+    margin-right: 24px;
+    background-color: #00AA13;
+    padding: 4px 9px;
+    border-radius: 8px;
 }
 
 /* Responsive untuk Tablet */
