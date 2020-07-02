@@ -24,7 +24,6 @@ a {
     position: fixed;
     width: 100%;
     top: 0;
-   
 }
 
 #menu-area .logo {
@@ -69,8 +68,6 @@ a {
     transition: .6s;
     overflow: hidden;
 }
-
-
 
 button:hover {
     background: #747fe0;
@@ -172,6 +169,16 @@ input{
     float: right;
     border-radius: 10px;
     margin-bottom: 9px;
+
+#see-more {
+    float: right;
+    margin-top: 20px;
+    margin-right: 24px;
+    background-color: #00AA13;
+    padding: 4px 9px;
+    border-radius: 8px;
+}
+
 }
 #see-more {
     float: right;
