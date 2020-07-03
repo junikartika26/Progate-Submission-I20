@@ -83,6 +83,11 @@ button:hover {
     cursor: pointer;
 }
 
+.menu-icon{
+  color:black;
+  float:right;
+  display:none;
+}
 /* akhir header */
 
 /* css main */
