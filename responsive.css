@@ -3,11 +3,73 @@
     .top-wrapper h1 {
         font-size: 32px;
     }
+
+    .lesson {
+    	width: 50%;
+    }
+
+    .box{
+    	margin-top: 10px;
+    	
+    }
+
+    .img-wrapper{
+    	height: 300px;
+    }
+
+    .top-wrapper{
+       margin-right:30px;
+       margin-left:30px;
+       height:500px;
+    }
+
+    #menu-area{
+        padding: 0px 50px;
+    }
+
 }
+
 @media all and (max-width: 670px) {
+    .container {
+        padding:0px;
+        margin: 0 auto;
+	}
+
+    #menu-area{
+        padding:0px 30px;
+    }
+
+    #menu-area .logo{
+        font-size:90%;
+    }
+
+    .header-right{
+        display:none;
+    }
+    
+	.menu-icon{
+	    display:block;
+	  }
+
     .top-wrapper h1 {
         font-size: 24px;
         text-align: left;
-        line-height: 36px;
+    }
+
+    .img-wrapper{
+        display:none;
+    }
+
+    .search{
+        width:80%;
+        font-size:14px;
+    }
+
+    .heading{
+        font-size:16px;
+    }
+
+    .lesson{
+    	width:100%;
     }
 }
