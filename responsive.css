@@ -14,7 +14,7 @@
     }
 
     .img-wrapper{
-    	height: 300px;
+    	width: 200px;
     }
 
     .top-wrapper{
@@ -27,6 +27,10 @@
         padding: 0px 50px;
     }
 
+    #menu-area ul{
+    	width: 500px;
+    }
+
 }
 
 @media all and (max-width: 670px) {
@@ -35,6 +39,7 @@
         margin: 0 auto;
 	}
 
+/* header */
     #menu-area{
         padding:0px 30px;
     }
@@ -46,14 +51,21 @@
     .header-right{
         display:none;
     }
-    
+
 	.menu-icon{
 	    display:block;
+	    padding-top: 10px;
 	  }
+
+/* main */
+	.top-wrapper{
+        height: 300px;
+	}
 
     .top-wrapper h1 {
         font-size: 24px;
         text-align: left;
+        padding-top: 100px;
     }
 
     .img-wrapper{
@@ -65,11 +77,45 @@
         font-size:14px;
     }
 
-    .heading{
-        font-size:16px;
-    }
-
+/* main tambahan */
     .lesson{
     	width:100%;
     }
+
+      .heading{
+        font-size:16px;
+        padding-top: 20px;
+    	padding-bottom: 20px;
+    }
+
+    .box{
+    	width: 100%;
+    }
+
+/* footer */
+	.footer-logo {
+    font-size: 24px;
+    padding-left:30px;
+	}
+
+	footer h3 {
+	    padding-top: 40px;
+	    padding-left:30px;
+	    font-size: 18px;
+	}
+
+	footer p {
+	    margin-top: -150px;
+	    margin-right:30px;
+	}
+
+	footer input {
+	    width:80%;
+	    margin-left:30px;
+	}
+
+	.subs {
+	    width:80%;
+	    margin-left:30px;
+	}
 }
