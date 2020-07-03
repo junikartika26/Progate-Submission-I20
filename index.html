@@ -33,6 +33,7 @@
                 <div class="text-wrapper">
                     <h1>Find <span id="your-job">your job</span> here<br> get your future</h1>
                     <input type="search" placeholder="Search your job" class="search">
+                    <span class="fa fa-search"></span>
                 </div>
 
                 <div class="img-wrapper">
@@ -45,64 +46,91 @@
 
     <!-- main tambahan -->
     <div class="lesson-wrapper">
+        <div class="container">
         <div class="heading">
-            <h2>Recommended Jobs</h2>
+          <h2>Recommended jobs</h2>
         </div>
         <div class="lessons">
+          <div class="lesson">
+            <div class="box">
+              <img src="resource/gojek.png" class="img-icon">
+               <h3>Android Developer</h3>
            
-            <div class="box">
-                <div class="box-icon">
-                    <img src="resource/indodax.png" alt="Indodax">
-                </div>
-                <p class="txt-contents">Dev Ops</p>
-                <p class="pt">PT. Indodax</p>
-                <p class="txt-contents">Jakarta, Indonesia</p>
-                <a href="#" class="apply">Apply</a>
-            </div>
+             <p class="text-contents">PT. Aplikasi Karya Anak Bangsa<br>
+             <span class="fa fa-map-marker"></span> Jakarta Selatan, Indonesia</p>
 
-            <div class="box">
-                <div class="box-icon">
-                    <img src="resource/gojek.png" alt="">
-                </div>
-                <p class="txt-contents">Android Developer</p>
-                <p class="pt">PT. Aplikasi Karya Anak Bangsa</p>
-                <p class="txt-contents">Jakarta Selatan, Indonesia</p>
-                <a href="#" class="apply">Apply</a>
-            </div>
+             <div class="apply">
+                 <button>Apply</button>
+             </div>
+             </div>
+          </div>
 
+           <div class="lesson">
             <div class="box">
-                <div class="box-icon">
-                    <img style="width: 200px; height: 200px;" src="resource/indomaret.png" alt="Indomaret">
-                </div>
-                <p class="txt-contents">Back End Developer</p>
-                <p class="pt">Indomaret Group</p>
-                <p class="txt-contents">Jakarta, Indonesia</p>
-                <a href="#" class="apply">Apply</a>
-            </div>
+              <img src="resource/indodax.png" class="img-icon">
+               <h3>Front End Developer</h3>
+           
+             <p class="text-contents">Indodax <br>
+             <span class="fa fa-map-marker"></span> Jakarta, Indonesia</p>
 
+             <div class="apply">
+                 <button>Apply</button>
+             </div>
+             </div>
+          </div>
+
+           <div class="lesson">
             <div class="box">
-                <div class="box-icon">
-                    <img src="resource/shopee.png" alt="">
-                </div>
-                <p class="txt-contents">Front End Developer</p>
-                <p class="pt">Shopee</p>
-                <p class="txt-contents">Jakarta Utara, Indonesia</p>
-                <a href="#" class="apply">Apply</a>
-            </div>
-            <div id="see-more">
-                <a href="#" style="color: white;">See more</a>
-            </div>
+              <img src="resource/shopee.png" class="img-icon">
+               <h3>Senior UI/UX</h3>
+           
+             <p class="text-contents">Shopee<br>
+             <span class="fa fa-map-marker"></span> Jakarta Utara, Indonesia</p>
+
+             <div class="apply">
+                 <button>Apply</button>
+             </div>
+             </div>
+          </div>
+
+           <div class="lesson">
+            <div class="box">
+              <img src="resource/indomaret.png" class="img-icon">
+               <h3>Android Developer</h3>
+           
+             <p class="text-contents">Indomaret Group<br>
+             <i class="fa fa-map-marker"></i> Jakarta, Indonesia</p>
+
+             <div class="apply">
+                 <button>Apply</button>
+             </div>
+             </div>
+          </div>
+
+          <div class="clear"></div>
         </div>
+
+            <button class="see-more">See more</button>
+      </div>
     </div>
 
-    <footer></footer>
+     <footer>
+     <div class="container">
+            <div class="footer-logo">My Jobs</div>
+            <h3>Subscribe to get latest job post</h3>
+            <p> &copy 2020</p>
+            <div class="newsletter">
+            <input type="text" class="input" placeholder="your email">
+            <button class="subs">SUBSCRIBE</button>
+        </div> 
+    </div>
+    </footer>
 
      <script>
         window.addEventListener('scroll', function(){
-  var section = document.querySelector('.header');
-  section.classList.toggle('cus-nav', window.scrollY > 0);
-});
-     
+            var section = document.querySelector('.header');
+            section.classList.toggle('cus-nav', window.scrollY > 0);
+        });
     </script>
 
 </body>
